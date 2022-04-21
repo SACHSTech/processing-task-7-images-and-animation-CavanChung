@@ -51,7 +51,7 @@ public class Sketch extends PApplet {
     if (fltCircleX < 0  || fltCircleX > width - 200) {
       fltCircleSpeedX *= -1;
     }
-    if (fltCircleY < 0 || fltCircleY > height - 300) {
+    if (fltCircleY < 0 || fltCircleY > height - 50) {
       fltCircleSpeedY *= -1;
     }
 
