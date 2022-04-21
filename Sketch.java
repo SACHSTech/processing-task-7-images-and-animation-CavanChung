@@ -48,7 +48,7 @@ public class Sketch extends PApplet {
     fltCircleY += fltCircleSpeedY;
     
     // add collision detection
-    if (fltCircleX < 0  || fltCircleX > width - 200) {
+    if (fltCircleX < 0  || fltCircleX > width - 50) {
       fltCircleSpeedX *= -1;
     }
     if (fltCircleY < 0 || fltCircleY > height - 50) {
